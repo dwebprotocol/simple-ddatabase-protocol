@@ -1,17 +1,17 @@
-# simple-hypercore-protocol
+# @ddatabase/simple-protocol
 
-Hypercore protocol state machine
+dDatabase protocol state machine
 
 ```
-npm install simple-hypercore-protocol
+npm install @ddatabase/simple-protocol
 ```
 
-Includes a Noise handshake, and is not backwards compatible with Hypercore <= 7
+Includes a Noise handshake, and is not backwards compatible with dDatabase <= 7
 
 ## Usage
 
 ``` js
-const Protocol = require('simple-hypercore-protocol')
+const Protocol = require('@ddatabase/simple-protocol')
 
 const a = new Protocol(true, {
   send (data) { // send hook should send data
