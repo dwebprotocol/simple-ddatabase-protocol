@@ -1,10 +1,10 @@
 {
-  "name": "simple-hypercore-protocol",
-  "version": "2.1.1",
-  "description": "Hypercore protocol state machine",
+  "name": "@ddatabase/simple-protocol",
+  "version": "1.0.0",
+  "description": "dWeb state machine.",
   "main": "index.js",
   "dependencies": {
-    "hypercore-crypto": "^2.1.0",
+    "@ddatabase/crypto": "^1.0.0",
     "noise-protocol": "^3.0.1",
     "protocol-buffers-encodings": "^1.1.0",
     "simple-handshake": "^3.0.0",
@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/simple-hypercore-protocol.git"
+    "url": "https://github.com/dwebprotocol/simple-ddatabase-protocol.git"
   },
-  "author": "Mathias Buus (@mafintosh)",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/simple-hypercore-protocol/issues"
+    "url": "https://github.com/dwebprotocol/simple-ddatabase-protocol/issues"
   },
-  "homepage": "https://github.com/mafintosh/simple-hypercore-protocol"
+  "homepage": "https://dwebx.org"
 }
